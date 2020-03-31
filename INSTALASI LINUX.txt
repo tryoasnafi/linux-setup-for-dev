@@ -1,0 +1,58 @@
+## PACKAGE MANAGEMENT 
+$ sudo apt-get install synaptic
+
+## PHP + WEB SERVER + GIT etc
+apache2		//sudo add-apt-repository ppa:ondrej/apache2sudo
+mariadb-server
+php		//sudo add-apt-repository ppa:ondrej/php
+git
+composer
+phpmyadmin	//sudo add-apt-repository ppa:phpmyadmin/ppa
+
+## NODEJS 
+$ sudo apt install curl
+install nvm via github (url(2)) + ikuti cara install (url(3))
+$ nvm install node
+$ sudo apt install npm -y
+
+## POSTMAN (REST API)
+$ sudo snap install postman
+or
+$ wget https://gist.githubusercontent.com/tryoasnafi/82b6c94bc70039b4523ca9459b50e707/raw/da66fadd357daa9fdc72167505d13d7d57443b3d/postman-deb.sh
+
+## CODEBLOCKS (url(4))
+$ sudo add-apt-repository ppa:codeblocks-devs/release
+
+## GIMP + VSCODIUM + CHROME(optional) + FONT + FONT MANAGER
+
+## QEMU KVM
+$ sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils (Ubuntu 18.04)
+
+## LibreOffice
+$ sudo add-apt-repository ppa:libreoffice/ppa
+$ sudo apt install libreoffice
+
+###############################################################################################
+
+php extensions:
+php7.4 php7.4-cli php7.4-fpm php7.4-json php7.4-pdo php7.4-mysql php7.4-zip php7.4-gd php7.4-curl php7.4-xml php7.4-bcmath
+libapache2-mod-php7.4 php7.1-mcrypt php7.4-common php.common php7.4-mbstring php7.4-gettext
+
+sudo phpenmod mbstring
+
+###############################################################################################
+
+URL :
+1.https://www.petanikode.com/pemrograman-web-di-linux/
+2.https://github.com/nvm-sh/nvm
+3.https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
+4.https://www.linuxbabe.com/ubuntu/install-code-blocks-ubuntu-16-04-17-04
+5.https://www.centerklik.com/software-gratis-wajib-install-ubuntu/
+6.https://help.ubuntu.com/community/KVM/Installation
+
+###############################################################################################
+TROUBLESHOOTING :
+
+
+BUG PHPMYADMIN (VERSI LAMA 2016)
+https://bugs.launchpad.net/ubuntu/+source/phpmyadmin/+bug/1768071
